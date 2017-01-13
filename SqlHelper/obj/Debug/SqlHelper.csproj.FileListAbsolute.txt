@@ -10,3 +10,4 @@ C:\Project\Tests\WPF\SqlHelper\SqlHelper\obj\Debug\SqlHelper.Properties.Resource
 C:\Project\Tests\WPF\SqlHelper\SqlHelper\obj\Debug\SqlHelper.csproj.GenerateResource.Cache
 C:\Project\Tests\WPF\SqlHelper\SqlHelper\obj\Debug\SqlHelper.exe
 C:\Project\Tests\WPF\SqlHelper\SqlHelper\obj\Debug\SqlHelper.pdb
+C:\Project\Tests\WPF\SqlHelper\SqlHelper\obj\Debug\SqlHelper.csprojResolveAssemblyReference.cache
