@@ -1,0 +1,17 @@
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelperWpf.exe.config
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.csprojResolveAssemblyReference.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\Views\MainWindow.baml
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\App.g.cs
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf_MarkupCompile.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.g.resources
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.Properties.Resources.resources
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.csproj.GenerateResource.Cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelperWpf.exe
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelperWpf.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\Views\MainWindow.g.cs
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.exe
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\XrmTaskHelperWpf.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelper.Core.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelper.Domain.Entities.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelper.Core.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\bin\Debug\XrmTaskHelper.Domain.Entities.pdb

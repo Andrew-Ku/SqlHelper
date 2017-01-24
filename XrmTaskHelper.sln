@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Domain", "01-Domain", "{405977D6-503B-425C-9906-7710B3ADBEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Domain.Entities", "XrmTaskHelper.Domain.Entities\XrmTaskHelper.Domain.Entities.csproj", "{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Domain.Interfaces", "XrmTaskHelper.Domain.Interfaces\XrmTaskHelper.Domain.Interfaces.csproj", "{2CBEF153-88FB-4F42-A68D-31841B241E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Service Interfaces", "02-Service Interfaces", "{3E490A8E-9C52-4F2B-AD8F-34C4522D7E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Services.Interfaces", "XrmTaskHelper.Services.Interfaces\XrmTaskHelper.Services.Interfaces.csproj", "{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Services", "03-Services", "{7AC07A7F-012C-4E11-9C8D-AA0D4606FF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Services", "XrmTaskHelper.Services\XrmTaskHelper.Services.csproj", "{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{63E904AE-B572-44E4-A176-9A4F07EE36E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Infrastructure.Data", "XrmTaskHelper.Infrastructure.Data\XrmTaskHelper.Infrastructure.Data.csproj", "{78E76781-8E1E-439D-BB34-309CBD9A3347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-UI", "05-UI", "{67AD37A6-EC82-4E3D-AF6A-D24D8B07B89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelperWpf", "XrmTaskHelperWpf\XrmTaskHelperWpf.csproj", "{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Infrastructure.DependencyInjection", "XrmTaskHelper.Infrastructure.DependencyInjection\XrmTaskHelper.Infrastructure.DependencyInjection.csproj", "{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Core", "00-Core", "{E6DE9BA1-4E42-4D83-B328-DC5FB1332C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmTaskHelper.Core", "XrmTaskHelper.Core\XrmTaskHelper.Core.csproj", "{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBEF153-88FB-4F42-A68D-31841B241E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBEF153-88FB-4F42-A68D-31841B241E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBEF153-88FB-4F42-A68D-31841B241E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBEF153-88FB-4F42-A68D-31841B241E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E76781-8E1E-439D-BB34-309CBD9A3347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E76781-8E1E-439D-BB34-309CBD9A3347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E76781-8E1E-439D-BB34-309CBD9A3347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E76781-8E1E-439D-BB34-309CBD9A3347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C1AC3CA-1115-4602-98B0-48E2BAE9BCDD} = {405977D6-503B-425C-9906-7710B3ADBEA6}
+		{2CBEF153-88FB-4F42-A68D-31841B241E4F} = {405977D6-503B-425C-9906-7710B3ADBEA6}
+		{89FC752E-E45A-484C-9CC0-BD3A42EEEA36} = {3E490A8E-9C52-4F2B-AD8F-34C4522D7E22}
+		{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37} = {7AC07A7F-012C-4E11-9C8D-AA0D4606FF11}
+		{78E76781-8E1E-439D-BB34-309CBD9A3347} = {63E904AE-B572-44E4-A176-9A4F07EE36E4}
+		{862BE5D5-30F8-40BC-80FC-D36EAE4B6D43} = {67AD37A6-EC82-4E3D-AF6A-D24D8B07B89A}
+		{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D} = {63E904AE-B572-44E4-A176-9A4F07EE36E4}
+		{44D9A492-A467-4F24-9F6B-340BCBFFA1A7} = {E6DE9BA1-4E42-4D83-B328-DC5FB1332C6E}
+	EndGlobalSection
+EndGlobal

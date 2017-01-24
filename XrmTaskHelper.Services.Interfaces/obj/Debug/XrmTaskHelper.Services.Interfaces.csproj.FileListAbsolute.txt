@@ -1,0 +1,5 @@
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services.Interfaces\bin\Debug\XrmTaskHelper.Services.Interfaces.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services.Interfaces\bin\Debug\XrmTaskHelper.Services.Interfaces.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services.Interfaces\obj\Debug\XrmTaskHelper.Services.Interfaces.csprojResolveAssemblyReference.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services.Interfaces\obj\Debug\XrmTaskHelper.Services.Interfaces.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services.Interfaces\obj\Debug\XrmTaskHelper.Services.Interfaces.pdb

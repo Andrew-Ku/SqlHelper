@@ -1,0 +1,5 @@
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.DependencyInjection\bin\Debug\XrmTaskHelper.Infrastructure.DependencyInjection.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.DependencyInjection\bin\Debug\XrmTaskHelper.Infrastructure.DependencyInjection.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.DependencyInjection\obj\Debug\XrmTaskHelper.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.DependencyInjection\obj\Debug\XrmTaskHelper.Infrastructure.DependencyInjection.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.DependencyInjection\obj\Debug\XrmTaskHelper.Infrastructure.DependencyInjection.pdb

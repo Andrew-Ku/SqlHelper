@@ -1,0 +1,7 @@
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\bin\Debug\XrmTaskHelper.Domain.Entities.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\bin\Debug\XrmTaskHelper.Domain.Entities.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\bin\Debug\XrmTaskHelper.Core.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\bin\Debug\XrmTaskHelper.Core.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\obj\Debug\XrmTaskHelper.Domain.Entities.csprojResolveAssemblyReference.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\obj\Debug\XrmTaskHelper.Domain.Entities.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Entities\obj\Debug\XrmTaskHelper.Domain.Entities.pdb

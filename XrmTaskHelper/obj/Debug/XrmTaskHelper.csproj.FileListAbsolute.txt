@@ -1,0 +1,8 @@
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\bin\Debug\XrmTaskHelper.exe.config
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\XrmTaskHelper.csprojResolveAssemblyReference.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\Widows\MainWindow.baml
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\App.g.cs
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\XrmTaskHelper_MarkupCompile.cache
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\XrmTaskHelper.g.resources
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\XrmTaskHelper.Properties.Resources.resources
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper\obj\Debug\XrmTaskHelper.csproj.GenerateResource.Cache
