@@ -40,8 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DomainServices\BaseDomainService.cs" />
+    <Compile Include="DomainServices\TagDomainService.cs" />
     <Compile Include="DomainServices\XrmTaskDomainService.cs" />
-    <Compile Include="FileService.cs" />
+    <Compile Include="DomainServices\XrmTaskItemDomainService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

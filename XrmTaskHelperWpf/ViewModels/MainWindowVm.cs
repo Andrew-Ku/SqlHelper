@@ -2,19 +2,33 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PropertyChanged;
 using XrmTaskHelper.Domain.Entities;
+using XrmTaskHelperWpf.Services.Interfaces;
 
 namespace XrmTaskHelperWpf.ViewModels
 {
-    public class MainWindowVm : BaseViewModel
+    [ImplementPropertyChanged]
+//    public class MainWindowVm : BaseViewModel
+    public class MainWindowVm
     {
-        ObservableCollection<XrmTaskVm> XrmTaskList { get; set; }
+        private readonly IXrmTaskService _xrmTaskService;
 
-        public MainWindowVm(List<XrmTask> xrmTasks)
+        public ObservableCollection<XrmTaskVm> XrmTaskList { get; set; }
+
+        public string TestStr { get; set; }
+
+
+        public MainWindowVm(IXrmTaskService xrmTaskService)
         {
-            XrmTaskList = new ObservableCollection<XrmTaskVm>(xrmTasks.Select(b => new XrmTaskVm(b)));
+            _xrmTaskService = xrmTaskService;
+          
+            XrmTaskList = new ObservableCollection<XrmTaskVm>(_xrmTaskService.GetTasksVm(p => p.Items));
+
+         
         }
     }
 }

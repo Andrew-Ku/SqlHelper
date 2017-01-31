@@ -12,7 +12,12 @@ namespace XrmTaskHelper.Infrastructure.Data.Mapping
     {
         public XrmTaskMap()
         {
-            ToTable("duXrmTask");
+
+            HasMany(p => p.Items)
+               .WithOptional()
+               .HasForeignKey(b => b.TaskId);
+
+            ToTable("doTasks");
         }
     }
 }

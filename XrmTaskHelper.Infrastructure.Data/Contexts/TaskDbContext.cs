@@ -13,6 +13,8 @@ namespace XrmTaskHelper.Infrastructure.Data.Contexts
         public TaskDbContext()
             : base("TaskDb")
         {
+            Database.SetInitializer<TaskDbContext>(new CreateDatabaseIfNotExists<TaskDbContext>());
+
             Configuration.ProxyCreationEnabled = false;
             Configuration.LazyLoadingEnabled = false;
 
@@ -21,7 +23,8 @@ namespace XrmTaskHelper.Infrastructure.Data.Contexts
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new XrmTaskMap());
-
+            modelBuilder.Configurations.Add(new XrmTaskItemMap());
+            modelBuilder.Configurations.Add(new TagMap());
         }
     }
 }

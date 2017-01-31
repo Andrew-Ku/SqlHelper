@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consts\DataBases.cs" />
+    <Compile Include="Consts\Paths.cs" />
+    <Compile Include="Consts\Tags.cs" />
+    <Compile Include="Consts\XrmTaskItem.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

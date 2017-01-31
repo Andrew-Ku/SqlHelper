@@ -1,0 +1,5 @@
+USE [Dev]
+GO
+
+ALTER TABLE [dbo].[dmSupply] ADD  CONSTRAINT [DF_dmSupply_Discont]  DEFAULT ((0)) FOR [Discont]
+GO

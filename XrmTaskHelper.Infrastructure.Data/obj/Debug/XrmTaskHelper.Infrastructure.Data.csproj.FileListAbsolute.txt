@@ -14,3 +14,7 @@ C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\Entit
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\obj\Debug\XrmTaskHelper.Infrastructure.Data.dll
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\obj\Debug\XrmTaskHelper.Infrastructure.Data.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\Autofac.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\XrmTaskHelper.Services.Interfaces.dll
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\XrmTaskHelper.Services.Interfaces.pdb
+C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Infrastructure.Data\bin\Debug\Autofac.xml

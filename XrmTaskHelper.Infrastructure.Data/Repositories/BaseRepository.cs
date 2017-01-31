@@ -91,6 +91,20 @@ namespace XrmTaskHelper.Infrastructure.Data.Repositories
         /// </summary>
         protected virtual void BeforeSave()
         {
+            //TODO: проверка валидаци и правил авторизации
+            //context.ChangeTracker.DetectChanges();
+            var modifiedEntites =
+                context.ChangeTracker.Entries()
+                    .Where(e => (e.State & (EntityState.Added | EntityState.Modified /*| EntityState.Deleted*/)) != 0)
+                    .ToList();
+
+            foreach (var entry in modifiedEntites)
+            {
+                if (entry.State == EntityState.Modified && entry.OriginalValues.PropertyNames.Contains("EditInfo"))
+                {
+                    var s = entry;
+                }
+            }
         }
 
         public void SetModified(object entity)

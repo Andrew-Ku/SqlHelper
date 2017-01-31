@@ -75,7 +75,7 @@
                     <ColumnDefinition Width="0.3*"/>
                 </Grid.ColumnDefinitions>
                 <TextBox  Tag="Название" Grid.Column="0" Grid.Row="0" BorderBrush="Bisque" Margin="3 3 3 3"></TextBox>
-                <TextBox  Tag="Тэг" Grid.Column="1" Grid.Row="0" BorderBrush="Bisque" Margin="3 3 3 3"></TextBox>
+                <TextBox Name="Tag"  Tag="Тэг" Grid.Column="1" Grid.Row="0" BorderBrush="Bisque" Margin="3 3 3 3"  Text="{Binding TestStr}"></TextBox>
             </Grid>
 
 
@@ -87,7 +87,7 @@
                         <MenuItem Header="Remove"/>
                     </ContextMenu>
                 </TreeView.ContextMenu>
-                <TreeViewItem Header="Fruit">
+                <TreeViewItem Header="{Binding ElementName=Tag, Path=Text}">
                     <TreeViewItem Header="Lime"></TreeViewItem>
                     <TreeViewItem Header="Orange"></TreeViewItem>
                     <TreeViewItem Header="Apple"></TreeViewItem>
@@ -117,7 +117,6 @@
                             <TextBlock Text="{Binding Name}" />
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Осталось:" />
-                                <TextBlock Text="{Binding Id}" FontWeight="Bold" Margin="10,0"/>
                                 <TextBlock Text="шт" />
                             </StackPanel>
                         </StackPanel>

@@ -39,8 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IFileService.cs" />
+    <Compile Include="IRepositoryFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XrmTaskHelper.Core\XrmTaskHelper.Core.csproj">
+      <Project>{44D9A492-A467-4F24-9F6B-340BCBFFA1A7}</Project>
+      <Name>XrmTaskHelper.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XrmTaskHelper.Domain.Interfaces\XrmTaskHelper.Domain.Interfaces.csproj">
+      <Project>{2CBEF153-88FB-4F42-A68D-31841B241E4F}</Project>
+      <Name>XrmTaskHelper.Domain.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
