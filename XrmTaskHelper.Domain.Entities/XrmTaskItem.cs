@@ -32,7 +32,7 @@ namespace XrmTaskHelper.Domain.Entities
         [DisplayName("Дата создания")]
         public DateTime CreateDate { get; set; }
 
-        [DisplayName("Путь")]
+        [DisplayName("Полный путь")]
         public string Path { get; set; }
 
 

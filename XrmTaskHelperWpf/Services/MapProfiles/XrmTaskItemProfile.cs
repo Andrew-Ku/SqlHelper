@@ -14,7 +14,9 @@ namespace XrmTaskHelperWpf.Services.MapProfiles
         protected override void Configure()
         {
             CreateMap<XrmTaskItem, XrmTaskItem>();
-            CreateMap<XrmTaskItem, XrmTaskItemVm>();
+            CreateMap<XrmTaskItem, XrmTaskItemVm>()
+                .ForMember(d => d.CreateDate, s => s.MapFrom(o => o.CreateDate.ToShortDateString()));
+            
             CreateMap<XrmTaskItemVm, XrmTaskItem>();
         }
     }

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="TextBlockDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="TextBoxDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="GridDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="TreeViewDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="BorderDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="WindowDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="GridSplitterDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="MenuDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="CheckBoxDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="ScrollBarDictionary.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="ButtomDictionary.xaml"></ResourceDictionary>
+        
+<!--        Подключить когда решу проблему со стилями маленького прямоугольника при скроллинге-->
+<!--        <ResourceDictionary Source="ScrollViewerDictionary.xaml"></ResourceDictionary>-->
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

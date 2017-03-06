@@ -35,7 +35,10 @@ namespace XrmTaskHelper.Domain.Entities
         public DateTime CreateDate { get; set; }
 
         [DisplayName("Дата завершения")]
-        public DateTime? CompleteDate { get; set; }
+        public DateTime? CompleteDate { get; set; } 
+        
+        [DisplayName("Полный путь")]
+        public string Path { get; set; }
 
 
         public List<int> TagIds

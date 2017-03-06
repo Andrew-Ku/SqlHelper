@@ -15,7 +15,8 @@ namespace XrmTaskHelper.Infrastructure.Data.Mapping
 
             HasMany(p => p.Items)
                .WithOptional()
-               .HasForeignKey(b => b.TaskId);
+               .HasForeignKey(b => b.TaskId)
+               .WillCascadeOnDelete(true);
 
             ToTable("doTasks");
         }

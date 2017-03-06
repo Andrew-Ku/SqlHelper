@@ -3,3 +3,8 @@ C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\bin\Debug\XrmTask
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.csprojResolveAssemblyReference.cache
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.dll
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\bin\Debug\XrmTaskHelper.Domain.Interfaces.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\bin\Debug\XrmTaskHelper.Domain.Interfaces.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.csprojResolveAssemblyReference.cache
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Domain.Interfaces\obj\Debug\XrmTaskHelper.Domain.Interfaces.pdb

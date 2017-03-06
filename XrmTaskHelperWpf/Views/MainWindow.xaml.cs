@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Interactivity;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
@@ -30,15 +31,22 @@ namespace XrmTaskHelperWpf.Views
         {
             InitializeComponent();
 
-//            var sds = _xrmTaskDs.GetAll().ToList();
-//
-//            sds.Add(new XrmTask()
-//            {
-//                Name = "Test-XRM"
-//            });
-//
-//            _xrmTaskDs.Save();
-
+           WindowStartupLocation = WindowStartupLocation.CenterScreen;
+           SourceInitialized += (s, a) => this.WindowState = WindowState.Maximized;
         }
+
+        private void Control_OnMouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                var textBox = (sender as ContentControl).FindName("PathTextBox") as TextBox;
+                System.Diagnostics.Process.Start(textBox.Text);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Ошибка при открытии файла");
+            }
+        }
+       
     }
 }

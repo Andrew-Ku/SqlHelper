@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefaultDialogService.cs" />
     <Compile Include="DomainServices\BaseDomainService.cs" />
     <Compile Include="DomainServices\TagDomainService.cs" />
     <Compile Include="DomainServices\XrmTaskDomainService.cs" />

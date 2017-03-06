@@ -12,6 +12,11 @@ namespace XrmTaskHelperWpf.Services.Interfaces
     public interface IXrmTaskService
     {
         int AddXrmTask(XrmTaskVm vm);
+
+        void UpdateDataBase(bool clearAll = false);
+
+        void DeleteFromDatabase();
+
         void EditXrmTask(XrmTaskVm vm);
         List<XrmTaskVm> GetTasksVm(params Expression<Func<XrmTask, object>>[] include);
     }

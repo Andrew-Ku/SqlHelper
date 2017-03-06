@@ -1,0 +1,139 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <LinearGradientBrush x:Key="backgroundBrushSuccess" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#3AAB2B" Offset="0.3"/>
+        <GradientStop Color="#36882B" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="backgroundBrushDangerous" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#D22A28" Offset="0.3"/>
+        <GradientStop Color="#B2302E" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="backgroundBrushPrimary" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#4392D0" Offset="0.3"/>
+        <GradientStop Color="#367DB5" Offset="1"/>
+    </LinearGradientBrush>
+
+
+    <Style x:Key="SuccessButton" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#3AAB2B" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="ButtonBorder" 
+                  CornerRadius="5,5,5,5" 
+                  Background="{TemplateBinding Background}" 
+                  BorderThickness="1,1,1,1" 
+                  Padding="3"        
+                  RenderTransformOrigin="0.5,0.5">
+                           
+                            <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                Grid.RowSpan="2" 
+                                HorizontalAlignment="Center"/>
+                        
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="RenderTransform" TargetName="ButtonBorder">
+                                <Setter.Value>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                    </TransformGroup>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter  Property="Background" TargetName="ButtonBorder" Value="{StaticResource backgroundBrushSuccess}">
+                                </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PrimaryButton" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#4392D0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="ButtonBorder" 
+                  CornerRadius="5,5,5,5" 
+                  Background="{TemplateBinding Background}" 
+                  BorderThickness="1,1,1,1" 
+                  Padding="3"        
+                  RenderTransformOrigin="0.5,0.5">
+
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                Grid.RowSpan="2" 
+                                HorizontalAlignment="Center"/>
+
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="RenderTransform" TargetName="ButtonBorder">
+                                <Setter.Value>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                    </TransformGroup>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter  Property="Background" TargetName="ButtonBorder" Value="{StaticResource backgroundBrushPrimary}">
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="DangerousButton" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Background" Value="#D22A28" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="ButtonBorder" 
+                  CornerRadius="5,5,5,5" 
+                  Background="{TemplateBinding Background}" 
+                  BorderThickness="1,1,1,1" 
+                  Padding="3"        
+                  RenderTransformOrigin="0.5,0.5">
+
+                        <ContentPresenter x:Name="ButtonContentPresenter"
+                                VerticalAlignment="Center"  
+                                Grid.RowSpan="2" 
+                                HorizontalAlignment="Center"/>
+
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="RenderTransform" TargetName="ButtonBorder">
+                                <Setter.Value>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                    </TransformGroup>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter  Property="Background" TargetName="ButtonBorder" Value="{StaticResource backgroundBrushDangerous}">
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+</ResourceDictionary>

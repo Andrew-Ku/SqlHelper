@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelperWpf\obj\Debug\
 XrmTaskHelperWpf
 none
 false
 DEBUG;TRACE
-C:\Project\Tests\WPF\SqlHelper\XrmTaskHelperWpf\App.xaml
-11892971807
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelperWpf\App.xaml
+14-325839591
 11166325347
-25-1465254844
-36798902600
-Views\MainWindow.xaml;
+28-317480040
+38233785583
+Resources\Dictionaries\AggregateDictionary.xaml;Resources\Dictionaries\BorderDictionary.xaml;Resources\Dictionaries\ButtomDictionary.xaml;Resources\Dictionaries\CheckBoxDictionary.xaml;Resources\Dictionaries\GridDictionary.xaml;Resources\Dictionaries\GridSplitterDictionary.xaml;Resources\Dictionaries\MenuDictionary.xaml;Resources\Dictionaries\ScrollBarDictionary.xaml;Resources\Dictionaries\ScrollViewerDictionary.xaml;Resources\Dictionaries\WindowDictionary.xaml;Resources\Dictionaries\TextBlockDictionary.xaml;Resources\Dictionaries\TextBoxDictionary.xaml;Resources\Dictionaries\TreeViewDictionary.xaml;Views\MainWindow.xaml;
 
-False
+True
 

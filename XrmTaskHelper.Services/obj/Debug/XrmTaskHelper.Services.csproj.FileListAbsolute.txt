@@ -11,3 +11,16 @@ C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Se
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.csprojResolveAssemblyReference.cache
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.dll
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Services.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Services.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Core.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Domain.Entities.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Domain.Interfaces.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Services.Interfaces.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Core.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Domain.Entities.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Domain.Interfaces.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\bin\Debug\XrmTaskHelper.Services.Interfaces.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.csprojResolveAssemblyReference.cache
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Services\obj\Debug\XrmTaskHelper.Services.pdb

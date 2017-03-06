@@ -3,3 +3,8 @@ C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Core\bin\Debug\XrmTaskHelper.Core.p
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.csprojResolveAssemblyReference.cache
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.dll
 C:\Project\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Core\bin\Debug\XrmTaskHelper.Core.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Core\bin\Debug\XrmTaskHelper.Core.pdb
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.csprojResolveAssemblyReference.cache
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.dll
+C:\Projects\Tests\WPF\SqlHelper\XrmTaskHelper.Core\obj\Debug\XrmTaskHelper.Core.pdb

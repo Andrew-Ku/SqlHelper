@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>taskHelper.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac, Version=4.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.4.3.0\lib\net45\Autofac.dll</HintPath>
@@ -106,6 +109,7 @@
       <HintPath>..\packages\Rx-PlatformServices.2.1.30214.0\lib\Net45\System.Reactive.PlatformServices.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -130,8 +134,9 @@
     <Compile Include="AutofacConfig.cs" />
     <Compile Include="AutoMapperConfig.cs" />
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Extensions\Markup\DisplayNameExtension.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="Services\Impl\JsonFileService.cs" />
+    <Compile Include="Services\Impl\FileService.cs" />
     <Compile Include="Services\Impl\UiServiceModule.cs" />
     <Compile Include="Services\Impl\XrmTaskService.cs" />
     <Compile Include="Services\Interfaces\IFileService.cs" />
@@ -140,7 +145,9 @@
     <Compile Include="Services\MapProfiles\XrmTaskItemProfile.cs" />
     <Compile Include="Services\MapProfiles\XrmTaskProfile.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\InfoObjectVm.cs" />
     <Compile Include="ViewModels\MainWindowVm.cs" />
+    <Compile Include="ViewModels\SearchVm.cs" />
     <Compile Include="ViewModels\XrmTaskItemVm.cs" />
     <Compile Include="ViewModels\XrmTaskVm.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
@@ -161,6 +168,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Resource Include="taskHelper.ico" />
+    <Resource Include="Resources\Images\notIcon.png" />
+    <Resource Include="Resources\Images\csv.png" />
+    <Resource Include="Resources\Images\doc.png" />
+    <Resource Include="Resources\Images\pdf.png" />
+    <Resource Include="Resources\Images\picture.png" />
+    <Resource Include="Resources\Images\sql.png" />
+    <Resource Include="Resources\Images\txt.png" />
+    <Resource Include="Resources\Images\xls.png" />
+    <Resource Include="Resources\Images\xml.png" />
+    <Resource Include="Resources\Images\task.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="FodyWeavers.xml" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,10 +200,62 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Folder Include="Converters\" />
     <Folder Include="Themes\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Resources\Dictionaries\AggregateDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\BorderDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\ButtomDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\CheckBoxDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\GridDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\GridSplitterDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\MenuDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\ScrollBarDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\ScrollViewerDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\WindowDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\TextBlockDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\TextBoxDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionaries\TreeViewDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -209,6 +281,10 @@
     <ProjectReference Include="..\XrmTaskHelper.Infrastructure.DependencyInjection\XrmTaskHelper.Infrastructure.DependencyInjection.csproj">
       <Project>{82BE8D8D-D4BA-4BD9-9BE5-A5604FA1BB5D}</Project>
       <Name>XrmTaskHelper.Infrastructure.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XrmTaskHelper.Services.Interfaces\XrmTaskHelper.Services.Interfaces.csproj">
+      <Project>{89FC752E-E45A-484C-9CC0-BD3A42EEEA36}</Project>
+      <Name>XrmTaskHelper.Services.Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\XrmTaskHelper.Services\XrmTaskHelper.Services.csproj">
       <Project>{CCD8AAD3-29EC-4C5A-BD53-0B2D7D9CCD37}</Project>

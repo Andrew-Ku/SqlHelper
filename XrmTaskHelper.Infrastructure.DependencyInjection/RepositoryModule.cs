@@ -21,6 +21,7 @@ namespace XrmTaskHelper.Infrastructure.DependencyInjection
         {
             builder.Register(c => new RepositoryFactory(c.Resolve<IComponentContext>())).As<IRepositoryFactory>();
             builder.Register(c => new Repository<XrmTask>(c.Resolve<DbContext>())).As<IRepository<XrmTask>>();
+            builder.Register(c => new Repository<XrmTaskItem>(c.Resolve<DbContext>())).As<IRepository<XrmTaskItem>>();
         }
     }
 }

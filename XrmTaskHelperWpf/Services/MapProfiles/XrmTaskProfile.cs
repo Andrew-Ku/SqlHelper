@@ -21,7 +21,11 @@ namespace XrmTaskHelperWpf.Services.MapProfiles
         {
             CreateMap<XrmTask, XrmTask>();
             CreateMap<XrmTask, XrmTaskVm>()
-                .ForMember(d => d.Items, s => s.MapFrom(o => o.Items.Select(Mapper.Map<XrmTaskItem, XrmTaskItemVm>)));
+//                .ForMember(d => d.Items, s => s.MapFrom(o => o.Items.Select(Mapper.Map<XrmTaskItem, XrmTaskItemVm>)))
+                .ForMember(d => d.Items, s => s.Ignore())
+                .ForMember(d => d.CreateDate, s => s.MapFrom(o => o.CreateDate.ToShortDateString()))
+                .ForMember(d => d.CompleteDate, s => s.MapFrom(o => o.CompleteDate.HasValue ? o.CompleteDate.Value.ToShortDateString() : ""));
+
             CreateMap<XrmTaskVm, XrmTask>();
         }
     }

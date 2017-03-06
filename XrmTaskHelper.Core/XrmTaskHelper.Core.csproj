@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consts\DataBases.cs" />
-    <Compile Include="Consts\Paths.cs" />
+    <Compile Include="Consts\Files.cs" />
     <Compile Include="Consts\Tags.cs" />
     <Compile Include="Consts\XrmTaskItem.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
